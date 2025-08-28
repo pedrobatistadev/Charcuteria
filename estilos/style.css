@@ -1,1 +1,73 @@
 @charset 'UTF-8';
+
+body,html {
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+}
+
+header {
+    background-image: url(../imagens/charcuteria_fundo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 30vh;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.719);
+
+    position: relative;
+}
+
+header > img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#primeira > div {
+    width: 190px;
+    margin: auto;
+}
+
+#primeira > div > h1 {
+    text-align: center;
+    color: #E69F1D;
+}
+
+#segunda {
+    margin-top: 4vh;
+}
+
+#segunda > p {
+    width: 85vw;
+    margin: auto;
+    text-align: justify;
+}
+
+#terceira {
+    margin-top: 4vh;
+}
+
+#terceira > h2 {
+    text-align: center;
+}
+
+#quarta > div {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 3vh;
+    width: 80vw;
+    margin: auto;
+}
+
+#quarta > div > img {
+    display: block;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
