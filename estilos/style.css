@@ -36,6 +36,7 @@ header > img {
 #primeira > div > h1 {
     text-align: center;
     color: #E69F1D;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.116);
 }
 
 #segunda {
