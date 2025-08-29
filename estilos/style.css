@@ -73,3 +73,34 @@ header > img {
     background-position: center center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
 }
+
+#quinta {
+    margin-top: 5vh;
+}
+
+#quinta > h2 {
+    text-align: center;
+    color: #E69F1D;
+}
+
+#quinta > img {
+    display: block;
+    width: 80vw;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#sexta > h2 {
+    text-align: center;
+    color: #E69F1D;
+}
+
+#sexta > p {
+    text-align: justify;
+    width: 85vw;
+    margin: auto;
+}
+
+#sexta {
+    margin-bottom: 10vh;
+}
